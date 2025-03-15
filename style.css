@@ -1,3 +1,103 @@
 body {
   font-family: "Noto Sans JP", Helvetica, sans-serif;
+  padding: 20px;
+}
+
+/*
+form
+*/
+.form {
+  border: 2px solid #000;
+  padding: 20px;
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-list {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-title {
+  font-weight: bold;
+  cursor: pointer;
+  width: 30%;
+}
+
+.form-field {
+  width: 70%;
+}
+
+.form-button {
+  text-align: center;
+}
+
+/*
+input, textarea
+*/
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+/*
+button
+*/
+.button {
+  border: 0;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  transition: opacity .25s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/*
+history-link
+*/
+.history-link {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.history-link>a{
+  margin: 0 5px;
+  color: #000;
+}
+
+/*
+table
+*/
+.table{
+  width: 100%;
+}
+
+.table-head{
+  background-color: #eee;
+}
+
+.table-head th{
+  border: 1px solid #000;
+  text-align: center;
+  padding: 5px;
+  width: 15%;
+}
+
+.table-head th:nth-child(4){
+  width: 55%;
+}
+
+.table-body td{
+ text-align-last: left;
+ border: 1px solid #000;
+ padding: 10px;
 }
